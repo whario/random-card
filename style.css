@@ -1,0 +1,26 @@
+body {
+    background-color: green;
+}
+.card {
+    margin-top: 15px;
+    height: 435px;
+    width: 240px;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 0 28px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.number {
+    text-align: center;
+    font-size: 150px;
+}
+.top {
+    text-align: left;
+    font-size: 70px;
+    margin-left: 2px;
+}
+.bottom{
+    text-align: right;
+    font-size: 70px;
+    margin-right: 2px;
+    transform: rotateX(-180deg);
+}
